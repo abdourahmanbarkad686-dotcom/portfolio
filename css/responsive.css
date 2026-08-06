@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 70%;
+    background: rgba(15, 23, 42, 0.95);
+    flex-direction: column;
+    padding: 4rem 2rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  .nav-links.active {
+    transform: translateX(0);
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero .typing {
+    font-size: 1.5rem;
+  }
+  .stats {
+    gap: 2rem;
+  }
+  .card-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .whatsapp-float {
+    bottom: 20px;
+    left: 20px;
+    width: 55px;
+    height: 55px;
+  }
+  .whatsapp-float::after {
+    left: 60px;
+    font-size: 0.8rem;
+  }
+}
