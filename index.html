@@ -21,6 +21,15 @@
 
   <title>Abdourahman Barkad | Full Stack Developer in Djibouti</title>
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4N9RPMSTS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X4N9RPMSTS');
+  </script>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -32,8 +41,9 @@
       "url": "https://abdourahmanbarkad686-dotcom.github.io/portfolio",
       "image": "https://abdourahmanbarkad686-dotcom.github.io/portfolio/images/hero-profile.png",
       "sameAs": [
-        "https://www.linkedin.com/in/your-profile",
-        "https://github.com/your-username"
+        "https://www.linkedin.com/in/abdourahman-barkad-8a4019405",
+        "https://www.facebook.com/share/19FaSDGrxv/",
+        "https://github.com/abdourahmanbarkad686-dotcom"
       ]
     }
   }
@@ -48,7 +58,9 @@
   <div id="loader"><div class="spinner"></div></div>
 
   <nav class="navbar" role="navigation" aria-label="Main navigation">
-    <a href="index.html" class="logo">Barkad.</a>
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Abdourahman Barkad – Full Stack Developer" style="height:40px; vertical-align: middle;">
+    </a>
     <ul class="nav-links">
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -69,7 +81,7 @@
   <main>
     <section class="hero">
       <div class="hero-content">
-        <img src="images/hero-profile.png" alt="Abdourahman Barkad – Full Stack Developer" width="180" height="180">
+        <img src="images/hero-profile.png" alt="Abdourahman Barkad – Full Stack Developer" width="180" height="180" loading="lazy">
         <h1>Hi, I'm <span>Abdourahman Barkad</span></h1>
         <div class="typing"></div>
         <p>I design and build modern, scalable digital systems for businesses, NGOs, and schools in Djibouti and beyond.</p>
@@ -105,17 +117,17 @@
     <div class="section-title hidden"><h2>Featured Projects</h2><p>Recent work that drives real impact</p></div>
     <div class="card-grid hidden">
       <article class="card">
-        <img src="images/projects/djibouti-ecommerce-home.png" alt="Djibouti e-commerce platform homepage – online marketplace built with React">
+        <img src="images/projects/djibouti-ecommerce-home.png" alt="Djibouti e-commerce platform homepage" loading="lazy">
         <h3>Djibouti E-commerce Platform</h3>
         <p>Full‑stack marketplace built with React & Node.js</p>
       </article>
       <article class="card">
-        <img src="images/projects/base-central-dashboard.png" alt="Base Central CRCS dashboard for humanitarian data management">
+        <img src="images/projects/base-central-dashboard.png" alt="Base Central CRCS dashboard" loading="lazy">
         <h3>Base Central CRCS</h3>
         <p>Dashboard system for humanitarian data management</p>
       </article>
       <article class="card">
-        <img src="images/projects/iftin-school-home.png" alt="Iftin Private School of English student portal homepage">
+        <img src="images/projects/iftin-school-home.png" alt="Iftin Private School student portal" loading="lazy">
         <h3>Iftin Private School of English</h3>
         <p>School management & student portal</p>
       </article>
@@ -138,6 +150,7 @@
     <div class="cta-section hidden">
       <h2>Ready to build something great?</h2>
       <a href="contact.html" class="btn btn-primary" style="margin-top:1rem;">Start a Project</a>
+      <a href="files/portfolio.pdf" class="btn btn-outline" style="margin-top:1rem;" download>Download Portfolio PDF</a>
     </div>
   </main>
 

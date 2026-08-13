@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://yourdomain.com/index.html</loc></url>
-  <url><loc>https://yourdomain.com/about.html</loc></url>
-  <url><loc>https://yourdomain.com/services.html</loc></url>
-  <url><loc>https://yourdomain.com/projects.html</loc></url>
-  <url><loc>https://yourdomain.com/case-studies.html</loc></url>
-  <url><loc>https://yourdomain.com/blog.html</loc></url>
-  <url><loc>https://yourdomain.com/testimonials.html</loc></url>
-  <url><loc>https://yourdomain.com/contact.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/index.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/about.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/services.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/projects.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/case-studies.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/blog.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/testimonials.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/pricing.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/faq.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/resume.html</loc></url>
+  <url><loc>https://abdourahmanbarkad686-dotcom.github.io/portfolio/contact.html</loc></url>
 </urlset>

@@ -21,6 +21,15 @@
 
   <title>About Abdourahman Barkad | Full Stack Developer in Djibouti</title>
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=X4N9RPMSTS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X4N9RPMSTS');
+  </script>
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -30,7 +39,7 @@
   <div id="loader"><div class="spinner"></div></div>
 
   <nav class="navbar" role="navigation" aria-label="Main navigation">
-    <a href="index.html" class="logo">Barkad.</a>
+    <a href="index.html" class="logo"><img src="images/logo.png" alt="Abdourahman Barkad – Full Stack Developer" style="height:40px;"></a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html" class="active">About</a></li>
@@ -54,27 +63,24 @@
       <p>Computer Science graduate dedicated to building powerful digital tools for real impact.</p>
     </header>
 
-    <!-- Portfolio collage image (full-width) -->
     <div style="max-width:900px; margin:2rem auto; padding:0 2rem;">
       <div class="card hidden">
-        <img src="images/portfolio-collage.png" alt="Portfolio collage of projects" style="width:100%; border-radius:10px;">
+        <img src="images/portfolio-collage.png" alt="Portfolio collage of projects" style="width:100%; border-radius:10px;" loading="lazy">
         <p style="text-align:center; margin-top:0.5rem;">A snapshot of my recent work</p>
       </div>
     </div>
 
     <div class="card-grid" style="max-width: 900px; margin: auto;">
-      <!-- Biography card with personal photo -->
       <div class="card hidden" style="display:flex; flex-wrap:wrap; align-items:center; gap:1.5rem;">
-        <img src="images/about-photo.png" alt="Abdourahman Barkad" style="width:150px; height:150px; object-fit:cover; border-radius:50%; border:3px solid var(--primary);">
+        <img src="images/about-photo.png" alt="Abdourahman Barkad" style="width:150px; height:150px; object-fit:cover; border-radius:50%; border:3px solid var(--primary);" loading="lazy">
         <div style="flex:1; min-width:200px;">
           <h2>Biography</h2>
           <p>I'm Abdourahman Barkad Robleh, a Full Stack Developer based in Djibouti. With a degree in Computer Science and over three years of experience, I create custom web applications for NGOs, schools, and local businesses. I thrive on turning complex requirements into clean, scalable solutions.</p>
         </div>
       </div>
 
-      <!-- Brand image card (already present) -->
       <div class="card hidden">
-        <img src="images/my-brand.jpg" alt="Abdourahman Barkad – Full Stack Developer Brand" style="width:100%; border-radius:10px;">
+        <img src="images/my-brand.jpg" alt="Abdourahman Barkad – Full Stack Developer Brand" style="width:100%; border-radius:10px;" loading="lazy">
         <p style="margin-top:1rem; text-align:center;">Your trusted partner for digital transformation.</p>
       </div>
 
